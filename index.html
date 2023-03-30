@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <h1>REGISTER PAGE</h1>
+    <form action="#" method="post">
+      <div>
+        <label for="firstname">First Name:</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Your First Name"
+          required />
+      </div>
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Your Last Name"
+          required />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your Email"
+          required />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Your Password"
+          required />
+      </div>
+      <div>
+        <label for="date">Day of Birth:</label>
+        <input
+          type="date"
+          name="date"
+          id="date"
+          required
+          min="1990-01-01"
+          max="2025-12-31"
+          value="2023-03-30" />
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          required
+          placeholder="Your Phone Number" />
+      </div>
+      <div>
+        <label for="adres">Adress:</label>
+        <textarea name="adres" id="adres" cols="20" rows="5"></textarea>
+      </div>
+      <div>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+          <option value="#" disabled selected>Select Country</option>
+          <option value="turkey">Turkey</option>
+          <option value="germany">Germany</option>
+          <option value="usa">USA</option>
+          <option value="england">England</option>
+        </select>
+      </div>
+      <div class="gender">
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <div class="button">
+          <input type="submit" value="Save" />
+          <input type="reset" value="Reset" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
