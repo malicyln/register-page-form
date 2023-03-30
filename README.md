@@ -3,7 +3,7 @@
 Project aims to create register-page-form.
 ## Project Skeleton
 ```
-login-form
+register-page-form (folder)
 |
 |----readme.md
 |----index.html
@@ -12,3 +12,7 @@ login-form
 ## Project-gif
 
 ## Project-link
+
+### At the end of the project, following topics are to be covered;
+- HTML
+- CSS
