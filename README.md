@@ -11,6 +11,9 @@ register-page-form (folder)
 ```
 ## Project-gif
 
+![register-page-form](https://user-images.githubusercontent.com/101462384/228897330-991a0ba3-cc7a-4acd-86a1-5ae700f1b8cb.gif)
+
+
 ## Project-link
 
 ### At the end of the project, following topics are to be covered;
